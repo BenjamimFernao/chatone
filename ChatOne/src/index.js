@@ -7,7 +7,7 @@ const roteamentoLogin = require("./roteamento/rotasLogin")
 app.use(roteamentoLogin);
 
 app.all("*", (req, res)=>{
-    res.send("Solicitacao errada").status(501);
+    res.send("Solicitação o errada").status(501);
 })
 
 
